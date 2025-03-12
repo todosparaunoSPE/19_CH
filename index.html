@@ -1,0 +1,2393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6abe6170fc7919bdf5182b6bf16437fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6abe6170fc7919bdf5182b6bf16437fe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6abe6170fc7919bdf5182b6bf16437fe = L.map(
+                "map_6abe6170fc7919bdf5182b6bf16437fe",
+                {
+                    center: [25.669342410625, -100.2584578640625],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ac49d550f9b94cf576452727e8e81b5d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ac49d550f9b94cf576452727e8e81b5d.addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var marker_b33ae43a19d5806b931c539183702d4a = L.marker(
+                [25.5894554, -100.0024014],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_f4ccea3cc66cb0a350c87e85c3d738a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_b33ae43a19d5806b931c539183702d4a.setIcon(icon_f4ccea3cc66cb0a350c87e85c3d738a6);
+        
+    
+        var popup_170c6ba52182ec58bbd322dafba67553 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93ce9661804e095db3092c8811179cdd = $(`<div id="html_93ce9661804e095db3092c8811179cdd" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Nuevo León</div>`)[0];
+                popup_170c6ba52182ec58bbd322dafba67553.setContent(html_93ce9661804e095db3092c8811179cdd);
+            
+        
+
+        marker_b33ae43a19d5806b931c539183702d4a.bindPopup(popup_170c6ba52182ec58bbd322dafba67553)
+        ;
+
+        
+    
+    
+            var marker_694e2f131a5355d511de484174805f80 = L.marker(
+                [25.707673, -100.2686444],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_e5adef4b139d3a18a737deb63bb3593e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_694e2f131a5355d511de484174805f80.setIcon(icon_e5adef4b139d3a18a737deb63bb3593e);
+        
+    
+        var popup_b264975c23341de2261852670b3e1054 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6362a233996e4d35b3015fdc38ae4295 = $(`<div id="html_6362a233996e4d35b3015fdc38ae4295" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Nuevo León</div>`)[0];
+                popup_b264975c23341de2261852670b3e1054.setContent(html_6362a233996e4d35b3015fdc38ae4295);
+            
+        
+
+        marker_694e2f131a5355d511de484174805f80.bindPopup(popup_b264975c23341de2261852670b3e1054)
+        ;
+
+        
+    
+    
+            var marker_f2cef488f477621ccdbc711934ce2416 = L.marker(
+                [25.6537584, -100.3519444],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_82065df0102b4537b2ea7e0117c27dd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f2cef488f477621ccdbc711934ce2416.setIcon(icon_82065df0102b4537b2ea7e0117c27dd5);
+        
+    
+        var popup_d475c51f7c59e1cf9b12185aa6be5ea5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_283c5bf7a428b18d1dd21b2a78945983 = $(`<div id="html_283c5bf7a428b18d1dd21b2a78945983" style="width: 100.0%; height: 100.0%;">AFORE: INBURSA Estado: Nuevo León</div>`)[0];
+                popup_d475c51f7c59e1cf9b12185aa6be5ea5.setContent(html_283c5bf7a428b18d1dd21b2a78945983);
+            
+        
+
+        marker_f2cef488f477621ccdbc711934ce2416.bindPopup(popup_d475c51f7c59e1cf9b12185aa6be5ea5)
+        ;
+
+        
+    
+    
+            var marker_d07878ce629405a84276a045c0f838a5 = L.marker(
+                [25.7234926, -100.2241421],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_d4b720f8025c6b2d2f51ce1e7beb1228 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d07878ce629405a84276a045c0f838a5.setIcon(icon_d4b720f8025c6b2d2f51ce1e7beb1228);
+        
+    
+        var popup_740b34c3a8232c8c670a1e76ab6dcce3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10c9671a5a6654a87dc8970453a75cd5 = $(`<div id="html_10c9671a5a6654a87dc8970453a75cd5" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Nuevo León</div>`)[0];
+                popup_740b34c3a8232c8c670a1e76ab6dcce3.setContent(html_10c9671a5a6654a87dc8970453a75cd5);
+            
+        
+
+        marker_d07878ce629405a84276a045c0f838a5.bindPopup(popup_740b34c3a8232c8c670a1e76ab6dcce3)
+        ;
+
+        
+    
+    
+            var marker_91960c3f759a4933af8e2ca370d38302 = L.marker(
+                [25.6751121, -100.3075992],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_ccbbeb18b47b2801df851942db0bdec5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_91960c3f759a4933af8e2ca370d38302.setIcon(icon_ccbbeb18b47b2801df851942db0bdec5);
+        
+    
+        var popup_5faffce2c355c429b52eeedd7e1bd7a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c0b227ce144634498f58fdbc7cdbc53 = $(`<div id="html_8c0b227ce144634498f58fdbc7cdbc53" style="width: 100.0%; height: 100.0%;">AFORE: PROFUTURO Estado: Nuevo León</div>`)[0];
+                popup_5faffce2c355c429b52eeedd7e1bd7a4.setContent(html_8c0b227ce144634498f58fdbc7cdbc53);
+            
+        
+
+        marker_91960c3f759a4933af8e2ca370d38302.bindPopup(popup_5faffce2c355c429b52eeedd7e1bd7a4)
+        ;
+
+        
+    
+    
+            var marker_1adc3e0247e9bb5e8b23958bed63d307 = L.marker(
+                [25.6850452, -100.2691179],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_94c7c97555372dd12d9f7480a968720c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1adc3e0247e9bb5e8b23958bed63d307.setIcon(icon_94c7c97555372dd12d9f7480a968720c);
+        
+    
+        var popup_75f9e48388e2b7359ec8a6779f9e97c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a57391063c765600da2a41b66e45a9cb = $(`<div id="html_a57391063c765600da2a41b66e45a9cb" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Nuevo León</div>`)[0];
+                popup_75f9e48388e2b7359ec8a6779f9e97c1.setContent(html_a57391063c765600da2a41b66e45a9cb);
+            
+        
+
+        marker_1adc3e0247e9bb5e8b23958bed63d307.bindPopup(popup_75f9e48388e2b7359ec8a6779f9e97c1)
+        ;
+
+        
+    
+    
+            var marker_5a0a8eab09041e223753266bd79d720e = L.marker(
+                [25.6643765, -100.3119986],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_4725b41e20aaed2673268298b73e0a09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_5a0a8eab09041e223753266bd79d720e.setIcon(icon_4725b41e20aaed2673268298b73e0a09);
+        
+    
+        var popup_0afb5bb74c3eddaae768bb6bf5fbe883 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2533b3cb136eaa8eaa190fb8aebd068e = $(`<div id="html_2533b3cb136eaa8eaa190fb8aebd068e" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Nuevo León</div>`)[0];
+                popup_0afb5bb74c3eddaae768bb6bf5fbe883.setContent(html_2533b3cb136eaa8eaa190fb8aebd068e);
+            
+        
+
+        marker_5a0a8eab09041e223753266bd79d720e.bindPopup(popup_0afb5bb74c3eddaae768bb6bf5fbe883)
+        ;
+
+        
+    
+    
+            var marker_a7d64a0753ead9e5161ef0eed9415208 = L.marker(
+                [25.760647, -100.3008569],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_3bf9e6e8e597f612d64ffc17197bc9f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a7d64a0753ead9e5161ef0eed9415208.setIcon(icon_3bf9e6e8e597f612d64ffc17197bc9f9);
+        
+    
+        var popup_0c39a44e4e876562999d532cb31077d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62a7a750e34dc75ec076d5eefd998d30 = $(`<div id="html_62a7a750e34dc75ec076d5eefd998d30" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Nuevo León</div>`)[0];
+                popup_0c39a44e4e876562999d532cb31077d6.setContent(html_62a7a750e34dc75ec076d5eefd998d30);
+            
+        
+
+        marker_a7d64a0753ead9e5161ef0eed9415208.bindPopup(popup_0c39a44e4e876562999d532cb31077d6)
+        ;
+
+        
+    
+    
+            var marker_df2895a73b6f5b64ae92d08cde57d670 = L.marker(
+                [25.6766714, -100.4499832],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_1feb77f6f6c7ed985a9a5983c56c9d62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_df2895a73b6f5b64ae92d08cde57d670.setIcon(icon_1feb77f6f6c7ed985a9a5983c56c9d62);
+        
+    
+        var popup_17cd55502f8ed720af48538be2a0b6f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d96e889aad307393d8b10cf51cc6332f = $(`<div id="html_d96e889aad307393d8b10cf51cc6332f" style="width: 100.0%; height: 100.0%;">AFORE: INVERCAP Estado: Nuevo León</div>`)[0];
+                popup_17cd55502f8ed720af48538be2a0b6f6.setContent(html_d96e889aad307393d8b10cf51cc6332f);
+            
+        
+
+        marker_df2895a73b6f5b64ae92d08cde57d670.bindPopup(popup_17cd55502f8ed720af48538be2a0b6f6)
+        ;
+
+        
+    
+    
+            var marker_c9ea026d049e9f860840a09e6916cb7e = L.marker(
+                [25.7001902, -100.3093165],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_a483c22fd38afc0bc48e941654871312 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c9ea026d049e9f860840a09e6916cb7e.setIcon(icon_a483c22fd38afc0bc48e941654871312);
+        
+    
+        var popup_ca303860ac0d7e77e3dbee8792d20ce4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d4769ef368ed09053f7ddb710036b63 = $(`<div id="html_7d4769ef368ed09053f7ddb710036b63" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Nuevo León</div>`)[0];
+                popup_ca303860ac0d7e77e3dbee8792d20ce4.setContent(html_7d4769ef368ed09053f7ddb710036b63);
+            
+        
+
+        marker_c9ea026d049e9f860840a09e6916cb7e.bindPopup(popup_ca303860ac0d7e77e3dbee8792d20ce4)
+        ;
+
+        
+    
+    
+            var marker_6b41bee8c291300193334ddb2082f48a = L.marker(
+                [25.671223, -100.337619],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_c913a1d76d45ca8c7a69958c21713582 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_6b41bee8c291300193334ddb2082f48a.setIcon(icon_c913a1d76d45ca8c7a69958c21713582);
+        
+    
+        var popup_95efed8a09eb6d26e447c4f322912bfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7995db399dde41b033bb56dcf60e786c = $(`<div id="html_7995db399dde41b033bb56dcf60e786c" style="width: 100.0%; height: 100.0%;">AFORE: PENSIONISSSTE Estado: Nuevo León</div>`)[0];
+                popup_95efed8a09eb6d26e447c4f322912bfe.setContent(html_7995db399dde41b033bb56dcf60e786c);
+            
+        
+
+        marker_6b41bee8c291300193334ddb2082f48a.bindPopup(popup_95efed8a09eb6d26e447c4f322912bfe)
+        ;
+
+        
+    
+    
+            var marker_1d46add4120f09bdd44602cc5f0964e0 = L.marker(
+                [25.6731472, -100.3146093],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_460b04a7168c2b007b748d034432e7be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1d46add4120f09bdd44602cc5f0964e0.setIcon(icon_460b04a7168c2b007b748d034432e7be);
+        
+    
+        var popup_7293cbf832711c911a3e02da15bb3764 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f15e2efb5f63d0321fabff9e2d51f58 = $(`<div id="html_9f15e2efb5f63d0321fabff9e2d51f58" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_7293cbf832711c911a3e02da15bb3764.setContent(html_9f15e2efb5f63d0321fabff9e2d51f58);
+            
+        
+
+        marker_1d46add4120f09bdd44602cc5f0964e0.bindPopup(popup_7293cbf832711c911a3e02da15bb3764)
+        ;
+
+        
+    
+    
+            var marker_838525db0a3a0656a2f22b82e8628bc7 = L.marker(
+                [25.7508285, -100.254958],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_51fad0d5a9f2887c35e323130266f559 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_838525db0a3a0656a2f22b82e8628bc7.setIcon(icon_51fad0d5a9f2887c35e323130266f559);
+        
+    
+        var popup_c7a1f81e4ab13f2748642a4e0ca895a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e0d72de88e5ed46385fa6f24166179c = $(`<div id="html_2e0d72de88e5ed46385fa6f24166179c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_c7a1f81e4ab13f2748642a4e0ca895a9.setContent(html_2e0d72de88e5ed46385fa6f24166179c);
+            
+        
+
+        marker_838525db0a3a0656a2f22b82e8628bc7.bindPopup(popup_c7a1f81e4ab13f2748642a4e0ca895a9)
+        ;
+
+        
+    
+    
+            var marker_f41484a45ddd23c9d2759cd80fa977e6 = L.marker(
+                [25.672724, -100.4216764],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_49921dea057d885a58ca7c3998e58fdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f41484a45ddd23c9d2759cd80fa977e6.setIcon(icon_49921dea057d885a58ca7c3998e58fdc);
+        
+    
+        var popup_5ba6ae5450cc1779c7c8ee1538d8eb4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62baab01d852bf552d5ab7e7432da3de = $(`<div id="html_62baab01d852bf552d5ab7e7432da3de" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_5ba6ae5450cc1779c7c8ee1538d8eb4d.setContent(html_62baab01d852bf552d5ab7e7432da3de);
+            
+        
+
+        marker_f41484a45ddd23c9d2759cd80fa977e6.bindPopup(popup_5ba6ae5450cc1779c7c8ee1538d8eb4d)
+        ;
+
+        
+    
+    
+            var marker_02b00d860f0d60ea7a7613016729dec3 = L.marker(
+                [25.7814786, -100.2572084],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_3b9e22025ccb8d7a661dab3b6a907551 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_02b00d860f0d60ea7a7613016729dec3.setIcon(icon_3b9e22025ccb8d7a661dab3b6a907551);
+        
+    
+        var popup_2254896bf2c717e0079ab371e1ef1a87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa96b82106afd573ee5fae189da193d1 = $(`<div id="html_fa96b82106afd573ee5fae189da193d1" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_2254896bf2c717e0079ab371e1ef1a87.setContent(html_fa96b82106afd573ee5fae189da193d1);
+            
+        
+
+        marker_02b00d860f0d60ea7a7613016729dec3.bindPopup(popup_2254896bf2c717e0079ab371e1ef1a87)
+        ;
+
+        
+    
+    
+            var marker_4b14d758bd1f8059446d8ff66dab78fa = L.marker(
+                [25.6577668, -100.1895211],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_dbdd090440b823c09ef9079c16daa64f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_4b14d758bd1f8059446d8ff66dab78fa.setIcon(icon_dbdd090440b823c09ef9079c16daa64f);
+        
+    
+        var popup_aed3a00c3332ca9f5243970fb895cf59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dee6fc3191e3f95d9daad8dc18d109c7 = $(`<div id="html_dee6fc3191e3f95d9daad8dc18d109c7" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_aed3a00c3332ca9f5243970fb895cf59.setContent(html_dee6fc3191e3f95d9daad8dc18d109c7);
+            
+        
+
+        marker_4b14d758bd1f8059446d8ff66dab78fa.bindPopup(popup_aed3a00c3332ca9f5243970fb895cf59)
+        ;
+
+        
+    
+    
+            var marker_0fdb238674e0abbb15183f6c546bb5e4 = L.marker(
+                [25.6783285, -100.4378947],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_532a0ef67643ba969f35bd436f661cbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0fdb238674e0abbb15183f6c546bb5e4.setIcon(icon_532a0ef67643ba969f35bd436f661cbf);
+        
+    
+        var popup_3c6bdb58e6d3a2108f77cba136e194e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58600fcf00f1dbda42e89678f156d0d4 = $(`<div id="html_58600fcf00f1dbda42e89678f156d0d4" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_3c6bdb58e6d3a2108f77cba136e194e9.setContent(html_58600fcf00f1dbda42e89678f156d0d4);
+            
+        
+
+        marker_0fdb238674e0abbb15183f6c546bb5e4.bindPopup(popup_3c6bdb58e6d3a2108f77cba136e194e9)
+        ;
+
+        
+    
+    
+            var marker_db9608a21091e8eb142a97c327446e53 = L.marker(
+                [25.6760535, -100.3140086],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_7e21f1bca90a3b679ef7b8aef21b5772 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_db9608a21091e8eb142a97c327446e53.setIcon(icon_7e21f1bca90a3b679ef7b8aef21b5772);
+        
+    
+        var popup_9e5666fa2bf794cd148e23ab755d40d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd112712c0cd15bfd226e828cf2cf122 = $(`<div id="html_fd112712c0cd15bfd226e828cf2cf122" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_9e5666fa2bf794cd148e23ab755d40d5.setContent(html_fd112712c0cd15bfd226e828cf2cf122);
+            
+        
+
+        marker_db9608a21091e8eb142a97c327446e53.bindPopup(popup_9e5666fa2bf794cd148e23ab755d40d5)
+        ;
+
+        
+    
+    
+            var marker_84ea881763217c27ebdd8ea9893600cf = L.marker(
+                [25.7269104, -100.3436276],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_4df31edc4093cae648afb71a6e723fc4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_84ea881763217c27ebdd8ea9893600cf.setIcon(icon_4df31edc4093cae648afb71a6e723fc4);
+        
+    
+        var popup_da9b0eb081c2a5c27e9dee590cf81de4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfd133222508b13b2bd2d81b75b85088 = $(`<div id="html_bfd133222508b13b2bd2d81b75b85088" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_da9b0eb081c2a5c27e9dee590cf81de4.setContent(html_bfd133222508b13b2bd2d81b75b85088);
+            
+        
+
+        marker_84ea881763217c27ebdd8ea9893600cf.bindPopup(popup_da9b0eb081c2a5c27e9dee590cf81de4)
+        ;
+
+        
+    
+    
+            var marker_f222d42831e0419d9217ffa4fe19445b = L.marker(
+                [25.7879708, -100.3186607],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_e9d01d099cda6306e6a118701c5b5fa0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f222d42831e0419d9217ffa4fe19445b.setIcon(icon_e9d01d099cda6306e6a118701c5b5fa0);
+        
+    
+        var popup_e50af884791cbd6687fe6f584e841e7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37164da8cf7783dc3b94d5f121e10130 = $(`<div id="html_37164da8cf7783dc3b94d5f121e10130" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_e50af884791cbd6687fe6f584e841e7a.setContent(html_37164da8cf7783dc3b94d5f121e10130);
+            
+        
+
+        marker_f222d42831e0419d9217ffa4fe19445b.bindPopup(popup_e50af884791cbd6687fe6f584e841e7a)
+        ;
+
+        
+    
+    
+            var marker_77a698b7125a61f7c027016d366997e0 = L.marker(
+                [25.67262, -100.3185038],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_839367464824c33dcc7519b8223a3556 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_77a698b7125a61f7c027016d366997e0.setIcon(icon_839367464824c33dcc7519b8223a3556);
+        
+    
+        var popup_80f8194a980201c35593c08e0e9fd5f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a15696e7766c60a2bb45e01df4479c0 = $(`<div id="html_1a15696e7766c60a2bb45e01df4479c0" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_80f8194a980201c35593c08e0e9fd5f5.setContent(html_1a15696e7766c60a2bb45e01df4479c0);
+            
+        
+
+        marker_77a698b7125a61f7c027016d366997e0.bindPopup(popup_80f8194a980201c35593c08e0e9fd5f5)
+        ;
+
+        
+    
+    
+            var marker_71de951d412f94fbd1a55e652b709b24 = L.marker(
+                [25.6650694, -100.2277709],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_d361b1b326eeeb58bbcfbd01d262b127 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_71de951d412f94fbd1a55e652b709b24.setIcon(icon_d361b1b326eeeb58bbcfbd01d262b127);
+        
+    
+        var popup_0001c4313c541769e51623f78657f33c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b98f19adf04407c86d26fe04a88bf150 = $(`<div id="html_b98f19adf04407c86d26fe04a88bf150" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_0001c4313c541769e51623f78657f33c.setContent(html_b98f19adf04407c86d26fe04a88bf150);
+            
+        
+
+        marker_71de951d412f94fbd1a55e652b709b24.bindPopup(popup_0001c4313c541769e51623f78657f33c)
+        ;
+
+        
+    
+    
+            var marker_dd209d0c3f2012414b320ae11bd00576 = L.marker(
+                [25.7729127, -100.3888318],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_22caca3078272b3ac7f22f7ba4ec3ad2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_dd209d0c3f2012414b320ae11bd00576.setIcon(icon_22caca3078272b3ac7f22f7ba4ec3ad2);
+        
+    
+        var popup_2e00cb0c6f0b2aeb285eed7f4cf575c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7ac94b080ea2486812195ebb47dea32a = $(`<div id="html_7ac94b080ea2486812195ebb47dea32a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_2e00cb0c6f0b2aeb285eed7f4cf575c8.setContent(html_7ac94b080ea2486812195ebb47dea32a);
+            
+        
+
+        marker_dd209d0c3f2012414b320ae11bd00576.bindPopup(popup_2e00cb0c6f0b2aeb285eed7f4cf575c8)
+        ;
+
+        
+    
+    
+            var marker_432cd2c3a23480b933f65197ef64b9d5 = L.marker(
+                [25.6300295, -100.294019],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_e2e2b4077ba2e9ef3e0d1556bd046170 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_432cd2c3a23480b933f65197ef64b9d5.setIcon(icon_e2e2b4077ba2e9ef3e0d1556bd046170);
+        
+    
+        var popup_c459397f3a6ec37ca941153ec6f75716 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d11d57a9cb8a82025abb6107057fcd49 = $(`<div id="html_d11d57a9cb8a82025abb6107057fcd49" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_c459397f3a6ec37ca941153ec6f75716.setContent(html_d11d57a9cb8a82025abb6107057fcd49);
+            
+        
+
+        marker_432cd2c3a23480b933f65197ef64b9d5.bindPopup(popup_c459397f3a6ec37ca941153ec6f75716)
+        ;
+
+        
+    
+    
+            var marker_e39ee33c70b932357e3774686edd5485 = L.marker(
+                [25.6792092, -100.2321509],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_b56cd5312ff6112e1a36a5ddc291889d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e39ee33c70b932357e3774686edd5485.setIcon(icon_b56cd5312ff6112e1a36a5ddc291889d);
+        
+    
+        var popup_3fbef05959dbf208a8f8cb799840874b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31788cff203c4bc824af1789d88471ec = $(`<div id="html_31788cff203c4bc824af1789d88471ec" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_3fbef05959dbf208a8f8cb799840874b.setContent(html_31788cff203c4bc824af1789d88471ec);
+            
+        
+
+        marker_e39ee33c70b932357e3774686edd5485.bindPopup(popup_3fbef05959dbf208a8f8cb799840874b)
+        ;
+
+        
+    
+    
+            var marker_2bd4331d13bd8dc037ca09c40c3e9285 = L.marker(
+                [25.6612213, -100.1492426],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_5ef684f854b5f5a81a813546d967d3ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2bd4331d13bd8dc037ca09c40c3e9285.setIcon(icon_5ef684f854b5f5a81a813546d967d3ec);
+        
+    
+        var popup_19f00928529292b748f35800302c6a5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cb0d6e418d024a0e793c1e3d4a1fc8a = $(`<div id="html_4cb0d6e418d024a0e793c1e3d4a1fc8a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_19f00928529292b748f35800302c6a5f.setContent(html_4cb0d6e418d024a0e793c1e3d4a1fc8a);
+            
+        
+
+        marker_2bd4331d13bd8dc037ca09c40c3e9285.bindPopup(popup_19f00928529292b748f35800302c6a5f)
+        ;
+
+        
+    
+    
+            var marker_882e0f5643b00a95f62e7c592e688db7 = L.marker(
+                [25.7220253, -100.2036915],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_d47318a15105abfb6c8ecbbbb4d2b114 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_882e0f5643b00a95f62e7c592e688db7.setIcon(icon_d47318a15105abfb6c8ecbbbb4d2b114);
+        
+    
+        var popup_32a91ee5c788032290fab00531c3f739 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_55d7f8f9ac0e4e2e689dd03b5ab1e887 = $(`<div id="html_55d7f8f9ac0e4e2e689dd03b5ab1e887" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_32a91ee5c788032290fab00531c3f739.setContent(html_55d7f8f9ac0e4e2e689dd03b5ab1e887);
+            
+        
+
+        marker_882e0f5643b00a95f62e7c592e688db7.bindPopup(popup_32a91ee5c788032290fab00531c3f739)
+        ;
+
+        
+    
+    
+            var marker_3949f7d7e01222d6fbc6c6aafba3e0d3 = L.marker(
+                [25.763928, -100.4108609],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_e618a2b24a9a84fb2d55ebe666bf409c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3949f7d7e01222d6fbc6c6aafba3e0d3.setIcon(icon_e618a2b24a9a84fb2d55ebe666bf409c);
+        
+    
+        var popup_09a7c779ce73f6c334efe97061b08ffa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c2424fe26deb360d1cf6ddbab44969d = $(`<div id="html_9c2424fe26deb360d1cf6ddbab44969d" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_09a7c779ce73f6c334efe97061b08ffa.setContent(html_9c2424fe26deb360d1cf6ddbab44969d);
+            
+        
+
+        marker_3949f7d7e01222d6fbc6c6aafba3e0d3.bindPopup(popup_09a7c779ce73f6c334efe97061b08ffa)
+        ;
+
+        
+    
+    
+            var marker_afc48fb4defefed7f711c3c8c2e8a834 = L.marker(
+                [25.7711618, -100.2736388],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_f15cbe02e7fda3dccca0164d16406f00 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_afc48fb4defefed7f711c3c8c2e8a834.setIcon(icon_f15cbe02e7fda3dccca0164d16406f00);
+        
+    
+        var popup_9c07cf41139390ec00d43658f17b3697 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89acc5c21e8d957d0bec36940b3b1303 = $(`<div id="html_89acc5c21e8d957d0bec36940b3b1303" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_9c07cf41139390ec00d43658f17b3697.setContent(html_89acc5c21e8d957d0bec36940b3b1303);
+            
+        
+
+        marker_afc48fb4defefed7f711c3c8c2e8a834.bindPopup(popup_9c07cf41139390ec00d43658f17b3697)
+        ;
+
+        
+    
+    
+            var marker_a7f1cfeef0a90149546080fe39a92120 = L.marker(
+                [25.7587032, -100.3546276],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_7d27ab8a046f12f257a88a39401cf4bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a7f1cfeef0a90149546080fe39a92120.setIcon(icon_7d27ab8a046f12f257a88a39401cf4bf);
+        
+    
+        var popup_d8a6b6f03c7aef12053a3cf8a43de369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e752c1f8b55e5c00aa5ddff4d3143b27 = $(`<div id="html_e752c1f8b55e5c00aa5ddff4d3143b27" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_d8a6b6f03c7aef12053a3cf8a43de369.setContent(html_e752c1f8b55e5c00aa5ddff4d3143b27);
+            
+        
+
+        marker_a7f1cfeef0a90149546080fe39a92120.bindPopup(popup_d8a6b6f03c7aef12053a3cf8a43de369)
+        ;
+
+        
+    
+    
+            var marker_ca3e1e84af655bb4e3c92d0e54f2e17e = L.marker(
+                [25.7431017, -100.1755716],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_1c27e5015764d7fe22d5d531ea01b1a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_ca3e1e84af655bb4e3c92d0e54f2e17e.setIcon(icon_1c27e5015764d7fe22d5d531ea01b1a2);
+        
+    
+        var popup_97c5614397cd5a53e1bc01c87fa373c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3b240a4f1c7106445db71ffebdad21c = $(`<div id="html_c3b240a4f1c7106445db71ffebdad21c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_97c5614397cd5a53e1bc01c87fa373c3.setContent(html_c3b240a4f1c7106445db71ffebdad21c);
+            
+        
+
+        marker_ca3e1e84af655bb4e3c92d0e54f2e17e.bindPopup(popup_97c5614397cd5a53e1bc01c87fa373c3)
+        ;
+
+        
+    
+    
+            var marker_52cb275dcc68a800d65e6af630aeeaac = L.marker(
+                [25.592172, -99.9961947],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_8f810b2e1b5306e4f915a648bf969435 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_52cb275dcc68a800d65e6af630aeeaac.setIcon(icon_8f810b2e1b5306e4f915a648bf969435);
+        
+    
+        var popup_136c6854566e8f87975bbf916c246d01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd6d466ee27332911bd75f27025a2c87 = $(`<div id="html_cd6d466ee27332911bd75f27025a2c87" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_136c6854566e8f87975bbf916c246d01.setContent(html_cd6d466ee27332911bd75f27025a2c87);
+            
+        
+
+        marker_52cb275dcc68a800d65e6af630aeeaac.bindPopup(popup_136c6854566e8f87975bbf916c246d01)
+        ;
+
+        
+    
+    
+            var marker_1d809728d6ab7a96c506cc0624adc118 = L.marker(
+                [25.6892957, -100.4545641],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_43e414a934a6e9d93cb88782f7e23a13 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1d809728d6ab7a96c506cc0624adc118.setIcon(icon_43e414a934a6e9d93cb88782f7e23a13);
+        
+    
+        var popup_0ec5b7b85b5aace5028df17732a01777 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe1d52d3eaccdbb47dfd5e83ae769a67 = $(`<div id="html_fe1d52d3eaccdbb47dfd5e83ae769a67" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_0ec5b7b85b5aace5028df17732a01777.setContent(html_fe1d52d3eaccdbb47dfd5e83ae769a67);
+            
+        
+
+        marker_1d809728d6ab7a96c506cc0624adc118.bindPopup(popup_0ec5b7b85b5aace5028df17732a01777)
+        ;
+
+        
+    
+    
+            var marker_45064cea71956918a383f7c443c25cb3 = L.marker(
+                [25.5055621, -100.0163892],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_1af3eb940c9cbfaa481216b53001af57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_45064cea71956918a383f7c443c25cb3.setIcon(icon_1af3eb940c9cbfaa481216b53001af57);
+        
+    
+        var popup_d149f6ab31f76cf6d76fe68169385080 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_54ef39072d3754d71d5c493ae5cfd829 = $(`<div id="html_54ef39072d3754d71d5c493ae5cfd829" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_d149f6ab31f76cf6d76fe68169385080.setContent(html_54ef39072d3754d71d5c493ae5cfd829);
+            
+        
+
+        marker_45064cea71956918a383f7c443c25cb3.bindPopup(popup_d149f6ab31f76cf6d76fe68169385080)
+        ;
+
+        
+    
+    
+            var marker_0a259dfa3afb099b6a36a0dc5b10b4b9 = L.marker(
+                [24.8648471, -99.5671727],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_427641675caef02b40420997096fa658 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0a259dfa3afb099b6a36a0dc5b10b4b9.setIcon(icon_427641675caef02b40420997096fa658);
+        
+    
+        var popup_a36c0fb18e020bee93dc11b286d9381e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb4b37fb4609dac4f4676c4cc9da0a73 = $(`<div id="html_cb4b37fb4609dac4f4676c4cc9da0a73" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_a36c0fb18e020bee93dc11b286d9381e.setContent(html_cb4b37fb4609dac4f4676c4cc9da0a73);
+            
+        
+
+        marker_0a259dfa3afb099b6a36a0dc5b10b4b9.bindPopup(popup_a36c0fb18e020bee93dc11b286d9381e)
+        ;
+
+        
+    
+    
+            var marker_531449f25c8c1ebb1de42c07a6f8e58b = L.marker(
+                [25.7054421, -100.2361806],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_86ef6c0ec3af1acef8120d83d26b6b4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_531449f25c8c1ebb1de42c07a6f8e58b.setIcon(icon_86ef6c0ec3af1acef8120d83d26b6b4b);
+        
+    
+        var popup_18c0b9ac2f9d482967611fe677393a10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ddc04d6092f16f87a879fa548e31897a = $(`<div id="html_ddc04d6092f16f87a879fa548e31897a" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_18c0b9ac2f9d482967611fe677393a10.setContent(html_ddc04d6092f16f87a879fa548e31897a);
+            
+        
+
+        marker_531449f25c8c1ebb1de42c07a6f8e58b.bindPopup(popup_18c0b9ac2f9d482967611fe677393a10)
+        ;
+
+        
+    
+    
+            var marker_375591ff0ab4a901cd4ce884f0977494 = L.marker(
+                [25.6384982, -100.1554451],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_a8378566646af48b8e0e96496fd44303 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_375591ff0ab4a901cd4ce884f0977494.setIcon(icon_a8378566646af48b8e0e96496fd44303);
+        
+    
+        var popup_528385974e16faa12dba6918a1932784 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0a98a78304fc1d28a75bb83f2c74b44e = $(`<div id="html_0a98a78304fc1d28a75bb83f2c74b44e" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_528385974e16faa12dba6918a1932784.setContent(html_0a98a78304fc1d28a75bb83f2c74b44e);
+            
+        
+
+        marker_375591ff0ab4a901cd4ce884f0977494.bindPopup(popup_528385974e16faa12dba6918a1932784)
+        ;
+
+        
+    
+    
+            var marker_77a34423dd1f753f62b6641b1d67c16e = L.marker(
+                [24.8590955, -99.5687388],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_ea05a75ff6442c3c93710a0de218748f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_77a34423dd1f753f62b6641b1d67c16e.setIcon(icon_ea05a75ff6442c3c93710a0de218748f);
+        
+    
+        var popup_84311cb6001b3e963f233df3dd2b06be = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9bb27b4995a940f75f4970a0a383ae3 = $(`<div id="html_b9bb27b4995a940f75f4970a0a383ae3" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_84311cb6001b3e963f233df3dd2b06be.setContent(html_b9bb27b4995a940f75f4970a0a383ae3);
+            
+        
+
+        marker_77a34423dd1f753f62b6641b1d67c16e.bindPopup(popup_84311cb6001b3e963f233df3dd2b06be)
+        ;
+
+        
+    
+    
+            var marker_1df09b7ad690816941271b8c7f349cee = L.marker(
+                [25.7138384, -100.2553685],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_1d94cf83c1c373042af95972acecc191 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_1df09b7ad690816941271b8c7f349cee.setIcon(icon_1d94cf83c1c373042af95972acecc191);
+        
+    
+        var popup_89ef81e967f964881dd548dbdad6ff3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_068c52af6840007c1e0487b47d0a9fcb = $(`<div id="html_068c52af6840007c1e0487b47d0a9fcb" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_89ef81e967f964881dd548dbdad6ff3b.setContent(html_068c52af6840007c1e0487b47d0a9fcb);
+            
+        
+
+        marker_1df09b7ad690816941271b8c7f349cee.bindPopup(popup_89ef81e967f964881dd548dbdad6ff3b)
+        ;
+
+        
+    
+    
+            var marker_f771a1b23e8395712feb06ca2b6f4e54 = L.marker(
+                [25.7109189, -100.1774698],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_47a71588e2534601247e5054de29bf44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_f771a1b23e8395712feb06ca2b6f4e54.setIcon(icon_47a71588e2534601247e5054de29bf44);
+        
+    
+        var popup_2cf600a160bbd2c9d50ca965666059bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e681de8319954d41483707f95092d9fb = $(`<div id="html_e681de8319954d41483707f95092d9fb" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_2cf600a160bbd2c9d50ca965666059bd.setContent(html_e681de8319954d41483707f95092d9fb);
+            
+        
+
+        marker_f771a1b23e8395712feb06ca2b6f4e54.bindPopup(popup_2cf600a160bbd2c9d50ca965666059bd)
+        ;
+
+        
+    
+    
+            var marker_51485d4d3c79ceb106ebd897451beb3c = L.marker(
+                [25.6518382, -100.1112185],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_2aef88d6463562230d17f9076372677a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_51485d4d3c79ceb106ebd897451beb3c.setIcon(icon_2aef88d6463562230d17f9076372677a);
+        
+    
+        var popup_cf786e1b52967d929fa887d04ab4e970 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85d4d82ae107c2a1e2110e362836b20c = $(`<div id="html_85d4d82ae107c2a1e2110e362836b20c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_cf786e1b52967d929fa887d04ab4e970.setContent(html_85d4d82ae107c2a1e2110e362836b20c);
+            
+        
+
+        marker_51485d4d3c79ceb106ebd897451beb3c.bindPopup(popup_cf786e1b52967d929fa887d04ab4e970)
+        ;
+
+        
+    
+    
+            var marker_80be4c4884f595b9dcdd429c4070ba58 = L.marker(
+                [25.7996496, -100.2277709],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_e06512ab3bd1136244864b1c5e2006f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_80be4c4884f595b9dcdd429c4070ba58.setIcon(icon_e06512ab3bd1136244864b1c5e2006f7);
+        
+    
+        var popup_73fa4e513632864d1c03955fad86efaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89d89c60ba46b7c2ec9e81046d73619c = $(`<div id="html_89d89c60ba46b7c2ec9e81046d73619c" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_73fa4e513632864d1c03955fad86efaf.setContent(html_89d89c60ba46b7c2ec9e81046d73619c);
+            
+        
+
+        marker_80be4c4884f595b9dcdd429c4070ba58.bindPopup(popup_73fa4e513632864d1c03955fad86efaf)
+        ;
+
+        
+    
+    
+            var marker_7ba1d5ec0d2e324cf68a572b72baa6cc = L.marker(
+                [25.7062838, -100.3396588],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_49e64ccf3789654d796a4a18f1a47346 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7ba1d5ec0d2e324cf68a572b72baa6cc.setIcon(icon_49e64ccf3789654d796a4a18f1a47346);
+        
+    
+        var popup_b8949f5c076181ce8cf22d4d76972176 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e66bdb6488165d6178636190e76a96f = $(`<div id="html_3e66bdb6488165d6178636190e76a96f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_b8949f5c076181ce8cf22d4d76972176.setContent(html_3e66bdb6488165d6178636190e76a96f);
+            
+        
+
+        marker_7ba1d5ec0d2e324cf68a572b72baa6cc.bindPopup(popup_b8949f5c076181ce8cf22d4d76972176)
+        ;
+
+        
+    
+    
+            var marker_874056fbc12730736415a9dee14d6383 = L.marker(
+                [25.732275, -100.3960849],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_7ee25da8099fd677a701b861edeb6d63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_874056fbc12730736415a9dee14d6383.setIcon(icon_7ee25da8099fd677a701b861edeb6d63);
+        
+    
+        var popup_101151cb80b50f945faa6d6f16c028c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14a0d99cb0a17fe2513b4cd84d858fbe = $(`<div id="html_14a0d99cb0a17fe2513b4cd84d858fbe" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_101151cb80b50f945faa6d6f16c028c5.setContent(html_14a0d99cb0a17fe2513b4cd84d858fbe);
+            
+        
+
+        marker_874056fbc12730736415a9dee14d6383.bindPopup(popup_101151cb80b50f945faa6d6f16c028c5)
+        ;
+
+        
+    
+    
+            var marker_a206aafa21e8680591d9b674be23ef71 = L.marker(
+                [25.6800543, -100.2528929],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_dc735af7a61924fc5fca28df216879c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a206aafa21e8680591d9b674be23ef71.setIcon(icon_dc735af7a61924fc5fca28df216879c1);
+        
+    
+        var popup_54ec0c3ccf0de96be587891001b9119b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0a03c281bf6efb18aa276d4e18151c6 = $(`<div id="html_b0a03c281bf6efb18aa276d4e18151c6" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_54ec0c3ccf0de96be587891001b9119b.setContent(html_b0a03c281bf6efb18aa276d4e18151c6);
+            
+        
+
+        marker_a206aafa21e8680591d9b674be23ef71.bindPopup(popup_54ec0c3ccf0de96be587891001b9119b)
+        ;
+
+        
+    
+    
+            var marker_2dcae6be50d362abe5b1045df5d0e0c4 = L.marker(
+                [25.6717179, -100.3148339],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_a5b0bc4025b487b94625d00f386abd2e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2dcae6be50d362abe5b1045df5d0e0c4.setIcon(icon_a5b0bc4025b487b94625d00f386abd2e);
+        
+    
+        var popup_bc6abf1996d83b76ad69980f73be5c2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17f8b367c8c7c52bbef61c177424ef75 = $(`<div id="html_17f8b367c8c7c52bbef61c177424ef75" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_bc6abf1996d83b76ad69980f73be5c2e.setContent(html_17f8b367c8c7c52bbef61c177424ef75);
+            
+        
+
+        marker_2dcae6be50d362abe5b1045df5d0e0c4.bindPopup(popup_bc6abf1996d83b76ad69980f73be5c2e)
+        ;
+
+        
+    
+    
+            var marker_9b1bef7bc7f9ea86fdcfbbc593fbbf09 = L.marker(
+                [25.6949087, -100.3126053],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_8244c0351ac4a6f4dfe374575d2cdb18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_9b1bef7bc7f9ea86fdcfbbc593fbbf09.setIcon(icon_8244c0351ac4a6f4dfe374575d2cdb18);
+        
+    
+        var popup_6500fa576f55c0c9e2ba9b7adf078228 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae4f072d09ab6193fa02f650bea1d899 = $(`<div id="html_ae4f072d09ab6193fa02f650bea1d899" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_6500fa576f55c0c9e2ba9b7adf078228.setContent(html_ae4f072d09ab6193fa02f650bea1d899);
+            
+        
+
+        marker_9b1bef7bc7f9ea86fdcfbbc593fbbf09.bindPopup(popup_6500fa576f55c0c9e2ba9b7adf078228)
+        ;
+
+        
+    
+    
+            var marker_d90d25f1c9abd8efa41c08ff1abbd426 = L.marker(
+                [25.7538401, -100.2972844],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_d22daeee04578ece7475d734cddb132f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d90d25f1c9abd8efa41c08ff1abbd426.setIcon(icon_d22daeee04578ece7475d734cddb132f);
+        
+    
+        var popup_bc7c7bef0044b1c62f904f38ce7256d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_385a1353623f271e738298604f4b797f = $(`<div id="html_385a1353623f271e738298604f4b797f" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_bc7c7bef0044b1c62f904f38ce7256d8.setContent(html_385a1353623f271e738298604f4b797f);
+            
+        
+
+        marker_d90d25f1c9abd8efa41c08ff1abbd426.bindPopup(popup_bc7c7bef0044b1c62f904f38ce7256d8)
+        ;
+
+        
+    
+    
+            var marker_0acc8010b19b1cca5620d9367ca15402 = L.marker(
+                [25.6663852, -100.3068087],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_c99806b77a5c546c62fa5a0b717bd088 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0acc8010b19b1cca5620d9367ca15402.setIcon(icon_c99806b77a5c546c62fa5a0b717bd088);
+        
+    
+        var popup_0beaf2e80623601f6432e0b9336a82c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_693503abeae1b64bd4905af68c7c998b = $(`<div id="html_693503abeae1b64bd4905af68c7c998b" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_0beaf2e80623601f6432e0b9336a82c5.setContent(html_693503abeae1b64bd4905af68c7c998b);
+            
+        
+
+        marker_0acc8010b19b1cca5620d9367ca15402.bindPopup(popup_0beaf2e80623601f6432e0b9336a82c5)
+        ;
+
+        
+    
+    
+            var marker_13b87679ad307f82726496e4946bd44e = L.marker(
+                [25.6837128, -100.3142024],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_5be76a0815ed63b5490a121f27e07935 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_13b87679ad307f82726496e4946bd44e.setIcon(icon_5be76a0815ed63b5490a121f27e07935);
+        
+    
+        var popup_6b34affeaabcfd99bf24f629c2732825 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0119e13efcc6e1698dffafac51bbea25 = $(`<div id="html_0119e13efcc6e1698dffafac51bbea25" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_6b34affeaabcfd99bf24f629c2732825.setContent(html_0119e13efcc6e1698dffafac51bbea25);
+            
+        
+
+        marker_13b87679ad307f82726496e4946bd44e.bindPopup(popup_6b34affeaabcfd99bf24f629c2732825)
+        ;
+
+        
+    
+    
+            var marker_3bf6b0ee9e41385e960a30db5af4554b = L.marker(
+                [25.67389, -100.46394],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_fcc2238a48f4c4f1852acda7ade88f8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_3bf6b0ee9e41385e960a30db5af4554b.setIcon(icon_fcc2238a48f4c4f1852acda7ade88f8b);
+        
+    
+        var popup_a6eaaad4df8b6a9862775d6f7eefb4f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c8ff3634bccda95ca7f3cdadfe56f88 = $(`<div id="html_9c8ff3634bccda95ca7f3cdadfe56f88" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_a6eaaad4df8b6a9862775d6f7eefb4f2.setContent(html_9c8ff3634bccda95ca7f3cdadfe56f88);
+            
+        
+
+        marker_3bf6b0ee9e41385e960a30db5af4554b.bindPopup(popup_a6eaaad4df8b6a9862775d6f7eefb4f2)
+        ;
+
+        
+    
+    
+            var marker_399ca66b3204c77ca841391026adbfa7 = L.marker(
+                [25.9086072, -100.1696087],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_9e807f33b155d34192d1d1802c0028e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_399ca66b3204c77ca841391026adbfa7.setIcon(icon_9e807f33b155d34192d1d1802c0028e2);
+        
+    
+        var popup_31998f239ff642078d84f6bb94162df9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76fd48014b9919a74c56e9028e5bd6cf = $(`<div id="html_76fd48014b9919a74c56e9028e5bd6cf" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_31998f239ff642078d84f6bb94162df9.setContent(html_76fd48014b9919a74c56e9028e5bd6cf);
+            
+        
+
+        marker_399ca66b3204c77ca841391026adbfa7.bindPopup(popup_31998f239ff642078d84f6bb94162df9)
+        ;
+
+        
+    
+    
+            var marker_08dc129adbfa23e1726f266690065297 = L.marker(
+                [25.7017749, -100.3091555],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_2d6d7532f0f3c7750189490822822c30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_08dc129adbfa23e1726f266690065297.setIcon(icon_2d6d7532f0f3c7750189490822822c30);
+        
+    
+        var popup_6d33d6fe9e23e815da7cdf17df98160f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8899a8d3de05c6b24bde2df2609eb1e6 = $(`<div id="html_8899a8d3de05c6b24bde2df2609eb1e6" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_6d33d6fe9e23e815da7cdf17df98160f.setContent(html_8899a8d3de05c6b24bde2df2609eb1e6);
+            
+        
+
+        marker_08dc129adbfa23e1726f266690065297.bindPopup(popup_6d33d6fe9e23e815da7cdf17df98160f)
+        ;
+
+        
+    
+    
+            var marker_627e90a76b7b056d552fc5e985565d83 = L.marker(
+                [25.7224186, -100.2161869],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_4dd54a0e4446cbdab8252d2623642a5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_627e90a76b7b056d552fc5e985565d83.setIcon(icon_4dd54a0e4446cbdab8252d2623642a5e);
+        
+    
+        var popup_4171b34a49b9bbed23e87aa9b22d29f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e56ce223d03c647c7b929c7312e27cd = $(`<div id="html_1e56ce223d03c647c7b929c7312e27cd" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_4171b34a49b9bbed23e87aa9b22d29f1.setContent(html_1e56ce223d03c647c7b929c7312e27cd);
+            
+        
+
+        marker_627e90a76b7b056d552fc5e985565d83.bindPopup(popup_4171b34a49b9bbed23e87aa9b22d29f1)
+        ;
+
+        
+    
+    
+            var marker_2f841196c7cdb82cd91292d05242d5c4 = L.marker(
+                [25.795865, -100.5840749],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_0c1e8cd8630c541685071f3aac821e58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2f841196c7cdb82cd91292d05242d5c4.setIcon(icon_0c1e8cd8630c541685071f3aac821e58);
+        
+    
+        var popup_80a5ae873c30a5759f1011687165b29c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c950d4c1bf31494a6a84476a0ecb6f29 = $(`<div id="html_c950d4c1bf31494a6a84476a0ecb6f29" style="width: 100.0%; height: 100.0%;">AFORE: COPPEL Estado: Nuevo León</div>`)[0];
+                popup_80a5ae873c30a5759f1011687165b29c.setContent(html_c950d4c1bf31494a6a84476a0ecb6f29);
+            
+        
+
+        marker_2f841196c7cdb82cd91292d05242d5c4.bindPopup(popup_80a5ae873c30a5759f1011687165b29c)
+        ;
+
+        
+    
+    
+            var marker_64bccde8baefa6f12140cda5771188ba = L.marker(
+                [25.6780368, -100.3133067],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_ace3085dea139b46b73af94425a6edb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_64bccde8baefa6f12140cda5771188ba.setIcon(icon_ace3085dea139b46b73af94425a6edb0);
+        
+    
+        var popup_7c4ee10b709d7b945e43f43b108c7bf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a74eb68ebec1d12afac3141f927623ab = $(`<div id="html_a74eb68ebec1d12afac3141f927623ab" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Nuevo León</div>`)[0];
+                popup_7c4ee10b709d7b945e43f43b108c7bf1.setContent(html_a74eb68ebec1d12afac3141f927623ab);
+            
+        
+
+        marker_64bccde8baefa6f12140cda5771188ba.bindPopup(popup_7c4ee10b709d7b945e43f43b108c7bf1)
+        ;
+
+        
+    
+    
+            var marker_89c16351457a9c992abd0400b5fff112 = L.marker(
+                [25.592172, -99.9961947],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_bb4781e90198d60e31a02c30bbe2f770 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_89c16351457a9c992abd0400b5fff112.setIcon(icon_bb4781e90198d60e31a02c30bbe2f770);
+        
+    
+        var popup_2d8d29b06435b2f9f21c68c21907d000 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1f7e9c17b61cf214940a60538be9b3b = $(`<div id="html_b1f7e9c17b61cf214940a60538be9b3b" style="width: 100.0%; height: 100.0%;">AFORE: SURA Estado: Nuevo León</div>`)[0];
+                popup_2d8d29b06435b2f9f21c68c21907d000.setContent(html_b1f7e9c17b61cf214940a60538be9b3b);
+            
+        
+
+        marker_89c16351457a9c992abd0400b5fff112.bindPopup(popup_2d8d29b06435b2f9f21c68c21907d000)
+        ;
+
+        
+    
+    
+            var marker_7859c8c376b9382ae4c9f4e5e89863a7 = L.marker(
+                [25.667165, -100.2809202],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_3ccf5fc45c395e5fb8778ed8645ba8e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_7859c8c376b9382ae4c9f4e5e89863a7.setIcon(icon_3ccf5fc45c395e5fb8778ed8645ba8e4);
+        
+    
+        var popup_b6ad34a251098d12412187280184f2aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69f81d299b4cb8a8bee68852ed0d3529 = $(`<div id="html_69f81d299b4cb8a8bee68852ed0d3529" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Nuevo León</div>`)[0];
+                popup_b6ad34a251098d12412187280184f2aa.setContent(html_69f81d299b4cb8a8bee68852ed0d3529);
+            
+        
+
+        marker_7859c8c376b9382ae4c9f4e5e89863a7.bindPopup(popup_b6ad34a251098d12412187280184f2aa)
+        ;
+
+        
+    
+    
+            var marker_085570b128e90a04e22f340907b88551 = L.marker(
+                [25.6691484, -100.3341508],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_87919de69d08083637be46ee4aa99034 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_085570b128e90a04e22f340907b88551.setIcon(icon_87919de69d08083637be46ee4aa99034);
+        
+    
+        var popup_04296bc79c8c319cd0ddd78143941a9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_616aa1343d7185af72578b3d311acdeb = $(`<div id="html_616aa1343d7185af72578b3d311acdeb" style="width: 100.0%; height: 100.0%;">AFORE: CITIBANAMEX Estado: Nuevo León</div>`)[0];
+                popup_04296bc79c8c319cd0ddd78143941a9f.setContent(html_616aa1343d7185af72578b3d311acdeb);
+            
+        
+
+        marker_085570b128e90a04e22f340907b88551.bindPopup(popup_04296bc79c8c319cd0ddd78143941a9f)
+        ;
+
+        
+    
+    
+            var marker_2768bbb3d267fc7edd3e856f91c0f8b2 = L.marker(
+                [25.6780368, -100.3133067],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_3f20eef25aa168fa4677a3890ed8f769 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_2768bbb3d267fc7edd3e856f91c0f8b2.setIcon(icon_3f20eef25aa168fa4677a3890ed8f769);
+        
+    
+        var popup_85f962394e548e613ef4ec5803808108 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75d39bf9394b6077fc8932f7f8df29ce = $(`<div id="html_75d39bf9394b6077fc8932f7f8df29ce" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Nuevo León</div>`)[0];
+                popup_85f962394e548e613ef4ec5803808108.setContent(html_75d39bf9394b6077fc8932f7f8df29ce);
+            
+        
+
+        marker_2768bbb3d267fc7edd3e856f91c0f8b2.bindPopup(popup_85f962394e548e613ef4ec5803808108)
+        ;
+
+        
+    
+    
+            var marker_408bfbf94c12fbda1b9c1f50e3291ae4 = L.marker(
+                [25.674529, -100.2980156],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_4de52a7641e643003263e750ba11356d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_408bfbf94c12fbda1b9c1f50e3291ae4.setIcon(icon_4de52a7641e643003263e750ba11356d);
+        
+    
+        var popup_e151860a1244c8d46b1e22ad9d98170d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f5503dd79961e2f7f3111af0dc91954 = $(`<div id="html_9f5503dd79961e2f7f3111af0dc91954" style="width: 100.0%; height: 100.0%;">AFORE: XXI-BANORTE Estado: Nuevo León</div>`)[0];
+                popup_e151860a1244c8d46b1e22ad9d98170d.setContent(html_9f5503dd79961e2f7f3111af0dc91954);
+            
+        
+
+        marker_408bfbf94c12fbda1b9c1f50e3291ae4.bindPopup(popup_e151860a1244c8d46b1e22ad9d98170d)
+        ;
+
+        
+    
+    
+            var marker_c410a3304a5d7b6bef6281d842eb23f9 = L.marker(
+                [25.6578198, -100.3730182],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_3d9386e36f52e99c1d08cd68cfc6deb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_c410a3304a5d7b6bef6281d842eb23f9.setIcon(icon_3d9386e36f52e99c1d08cd68cfc6deb2);
+        
+    
+        var popup_e62e840729bfce8023b5e383138890ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db448739431b3b7d940b0e35191bb14d = $(`<div id="html_db448739431b3b7d940b0e35191bb14d" style="width: 100.0%; height: 100.0%;">AFORE: PRINCIPAL Estado: Nuevo León</div>`)[0];
+                popup_e62e840729bfce8023b5e383138890ca.setContent(html_db448739431b3b7d940b0e35191bb14d);
+            
+        
+
+        marker_c410a3304a5d7b6bef6281d842eb23f9.bindPopup(popup_e62e840729bfce8023b5e383138890ca)
+        ;
+
+        
+    
+    
+            var marker_efbf70af8e790ae77686d3df3004fe30 = L.marker(
+                [25.6771548, -100.3199269],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_c24996755528843f8f7843ace433fae4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_efbf70af8e790ae77686d3df3004fe30.setIcon(icon_c24996755528843f8f7843ace433fae4);
+        
+    
+        var popup_3deaa3ec4d9eb18d32bced7a69c42bf2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e52c1189061f6df9b0e010aa06b1395d = $(`<div id="html_e52c1189061f6df9b0e010aa06b1395d" style="width: 100.0%; height: 100.0%;">AFORE: AZTECA Estado: Nuevo León</div>`)[0];
+                popup_3deaa3ec4d9eb18d32bced7a69c42bf2.setContent(html_e52c1189061f6df9b0e010aa06b1395d);
+            
+        
+
+        marker_efbf70af8e790ae77686d3df3004fe30.bindPopup(popup_3deaa3ec4d9eb18d32bced7a69c42bf2)
+        ;
+
+        
+    
+    
+            var marker_a3b13433103a026b1b5028c8d0edf2a6 = L.marker(
+                [25.66812518, -100.2539155],
+                {
+}
+            ).addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+    
+            var icon_597c826189eca9f3ac115a19e21a9175 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "black",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_a3b13433103a026b1b5028c8d0edf2a6.setIcon(icon_597c826189eca9f3ac115a19e21a9175);
+        
+    
+        var popup_df0da8d246bd6cdd1ef8a4209c038c67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94ff2606609207be49417af21d42f199 = $(`<div id="html_94ff2606609207be49417af21d42f199" style="width: 100.0%; height: 100.0%;">AFORE: Nuevo CAP Estado: Nuevo León</div>`)[0];
+                popup_df0da8d246bd6cdd1ef8a4209c038c67.setContent(html_94ff2606609207be49417af21d42f199);
+            
+        
+
+        marker_a3b13433103a026b1b5028c8d0edf2a6.bindPopup(popup_df0da8d246bd6cdd1ef8a4209c038c67)
+        ;
+
+        
+    
+    
+            tile_layer_ac49d550f9b94cf576452727e8e81b5d.addTo(map_6abe6170fc7919bdf5182b6bf16437fe);
+        
+</script>
+</html>
